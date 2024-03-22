@@ -41,3 +41,52 @@ main{
     font-size: 40px;
 }
 /*Fine sezione Risultati*/
+
+/*Inizio sezione Pulsanti*/
+
+.pulsanti{
+    display: flex;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.numbers {
+    flex: 4;
+}
+
+.operators{
+    flex: 1;
+}
+
+button{
+    padding: 6px 10px;
+    font-size: 20px;
+    font-family: 'Michroma';
+    border-radius: 10px;
+    border-left: 1px solid #888;
+    border-bottom: 1px solid #888;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 100%;
+    
+}
+
+.numbers button{
+    flex-basis: calc(100% / 3 - 10px);
+
+}
+
+.numbers button.largo{
+    flex-basis: calc(100% / 3*2 - 10px);
+}
+
+.arancione{
+    background-color: orange;
+}
+/*Fine sezione Pulsanti*/
+/*Fine Calcolatrice*/
