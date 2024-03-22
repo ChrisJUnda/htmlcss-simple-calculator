@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*Inizio Calcolatrice*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+/*Inizio Sezione Logo*/
+
+#calcolatrice {
+    width: 300px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(200, 200, 200,1), rgba(250, 250, 250, 1));
+}
+
+
+.logo{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Michroma', sans-serif;
+    line-height: 3;
+}
+/*Fine Sezione Logo*/
