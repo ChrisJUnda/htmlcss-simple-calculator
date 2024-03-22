@@ -28,3 +28,16 @@ main{
     line-height: 3;
 }
 /*Fine Sezione Logo*/
+
+/*Inizio sezione Risultati*/
+
+.risultati{
+    background-color: black;
+    color: rgb(33, 193, 31);
+    padding-right: 20px;
+    text-align: right;
+    line-height: 2;
+    font-family: 'Seven segment', sans-serif;
+    font-size: 40px;
+}
+/*Fine sezione Risultati*/
